@@ -170,11 +170,6 @@
 	left: 25%;
 }
 
-.hpList {
-	width:100%;
-	height:33%;
-}
-
 #topPoke {
 	width: 50%;
 	height:70%;
@@ -188,6 +183,54 @@
 	right: 10%;
 	top: 10%;
 }
+
+/* 6 */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { 
+	#bottomPokemon {
+		top: 60%;
+	}
+	#topPoke {
+		top: 35%;
+	}
+ }
+
+/* 5 and 5s */
+ @media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) 
+and (orientation : portrait) { 
+	#bottomPokemon {
+		top: 65%;
+	}
+	#topPoke {
+		top: 35%;
+	}
+}
+
+/* 6s */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
+
+	#bottomPokemon {
+		top: 65%;
+	}
+
+	#topPoke {
+		top: 35%;
+	}
+ }
+
+.hpList {
+	width:100%;
+	height:33%;
+}
+
+
 
 .UpperHpList {
 	width:100%;
