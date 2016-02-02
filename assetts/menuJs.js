@@ -1,5 +1,8 @@
 window.onload = function() {
 	var snd = new Audio("assetts/ruby_0005.wav"); // buffers automatically when created
+	var snd2 = new Audio("assetts/backgroundMusic.mp3");
+	snd2.play();
+
 	var cursorPosition = 0;
 	$($(".menuHalf").get(cursorPosition)).addClass("theFocus");
 	$(document).keydown(function(e) {
